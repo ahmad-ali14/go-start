@@ -13,11 +13,15 @@ func main() {
 	// short hand, only works inside functions
 	age := 27
 
+	// shorthand, for multiple vars
+	where, when := "London", 2020
+
 	// const vars
 	const tired = true
 
 	// print to the terminal
 	fmt.Println("I'm ", me, age)
+	fmt.Println(when, where)
 
 	// if statments
 	if tired {
